@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1385EFB-4FDB-47CB-9728-8772F67F1487}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>IEczacim</RootNamespace>
+    <AssemblyName>IEczacim</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Eczane_Paneli_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eczane_Paneli_Home.Designer.cs">
+      <DependentUpon>Eczane_Paneli_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eczane_Paneli_Home1_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eczane_Paneli_Home1_Form.Designer.cs">
+      <DependentUpon>Eczane_Paneli_Home1_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta_Kabul_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta_Kabul_Form.Designer.cs">
+      <DependentUpon>Hasta_Kabul_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta_Paneli_Eczanelerim_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta_Paneli_Eczanelerim_Form.Designer.cs">
+      <DependentUpon>Hasta_Paneli_Eczanelerim_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta_Paneli_Hesap_Olustur_From.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta_Paneli_Hesap_Olustur_From.Designer.cs">
+      <DependentUpon>Hasta_Paneli_Hesap_Olustur_From.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta_Paneli_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta_Paneli_Home.Designer.cs">
+      <DependentUpon>Hasta_Paneli_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta_Paneli_Home1_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta_Paneli_Home1_Form.Designer.cs">
+      <DependentUpon>Hasta_Paneli_Home1_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta_Paneli_Sifremi_Unuttum_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta_Paneli_Sifremi_Unuttum_Form.Designer.cs">
+      <DependentUpon>Hasta_Paneli_Sifremi_Unuttum_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IEczacimDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IEczacimDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Ilac_Stok_Yonetimi_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ilac_Stok_Yonetimi_Form.Designer.cs">
+      <DependentUpon>Ilac_Stok_Yonetimi_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YonetimPameli_Eczaneler_From.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YonetimPameli_Eczaneler_From.Designer.cs">
+      <DependentUpon>YonetimPameli_Eczaneler_From.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yonetim_Paneli_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yonetim_Paneli_Home.Designer.cs">
+      <DependentUpon>Yonetim_Paneli_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yonetim_Paneli_Home1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yonetim_Paneli_Home1.Designer.cs">
+      <DependentUpon>Yonetim_Paneli_Home1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yonetim_Paneli_Receteler_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yonetim_Paneli_Receteler_Form.Designer.cs">
+      <DependentUpon>Yonetim_Paneli_Receteler_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yonetim_Panlei_Ilaclar_Listesi_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yonetim_Panlei_Ilaclar_Listesi_Form.Designer.cs">
+      <DependentUpon>Yonetim_Panlei_Ilaclar_Listesi_Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Eczane_Paneli_Home.resx">
+      <DependentUpon>Eczane_Paneli_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eczane_Paneli_Home1_Form.resx">
+      <DependentUpon>Eczane_Paneli_Home1_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasta_Kabul_Form.resx">
+      <DependentUpon>Hasta_Kabul_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasta_Paneli_Eczanelerim_Form.resx">
+      <DependentUpon>Hasta_Paneli_Eczanelerim_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasta_Paneli_Hesap_Olustur_From.resx">
+      <DependentUpon>Hasta_Paneli_Hesap_Olustur_From.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasta_Paneli_Home.resx">
+      <DependentUpon>Hasta_Paneli_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasta_Paneli_Home1_Form.resx">
+      <DependentUpon>Hasta_Paneli_Home1_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasta_Paneli_Sifremi_Unuttum_Form.resx">
+      <DependentUpon>Hasta_Paneli_Sifremi_Unuttum_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ilac_Stok_Yonetimi_Form.resx">
+      <DependentUpon>Ilac_Stok_Yonetimi_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="YonetimPameli_Eczaneler_From.resx">
+      <DependentUpon>YonetimPameli_Eczaneler_From.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yonetim_Paneli_Home.resx">
+      <DependentUpon>Yonetim_Paneli_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yonetim_Paneli_Home1.resx">
+      <DependentUpon>Yonetim_Paneli_Home1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yonetim_Paneli_Receteler_Form.resx">
+      <DependentUpon>Yonetim_Paneli_Receteler_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yonetim_Panlei_Ilaclar_Listesi_Form.resx">
+      <DependentUpon>Yonetim_Panlei_Ilaclar_Listesi_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="IEczacimDataSet.xsc">
+      <DependentUpon>IEczacimDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet.xss">
+      <DependentUpon>IEczacimDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet1.xsc">
+      <DependentUpon>IEczacimDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet1.xss">
+      <DependentUpon>IEczacimDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet10.xsc">
+      <DependentUpon>IEczacimDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet10.xss">
+      <DependentUpon>IEczacimDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet11.xsc">
+      <DependentUpon>IEczacimDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet11.xss">
+      <DependentUpon>IEczacimDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet12.xsc">
+      <DependentUpon>IEczacimDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet12.xss">
+      <DependentUpon>IEczacimDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet13.xsc">
+      <DependentUpon>IEczacimDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet13.xss">
+      <DependentUpon>IEczacimDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet2.xsc">
+      <DependentUpon>IEczacimDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet2.xss">
+      <DependentUpon>IEczacimDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet3.xsc">
+      <DependentUpon>IEczacimDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet3.xss">
+      <DependentUpon>IEczacimDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet4.xsc">
+      <DependentUpon>IEczacimDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet4.xss">
+      <DependentUpon>IEczacimDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet5.xsc">
+      <DependentUpon>IEczacimDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet5.xss">
+      <DependentUpon>IEczacimDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet6.xsc">
+      <DependentUpon>IEczacimDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet6.xss">
+      <DependentUpon>IEczacimDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet7.xsc">
+      <DependentUpon>IEczacimDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet7.xss">
+      <DependentUpon>IEczacimDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet8.xsc">
+      <DependentUpon>IEczacimDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet8.xss">
+      <DependentUpon>IEczacimDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet9.xsc">
+      <DependentUpon>IEczacimDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="IEczacimDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IEczacimDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IEczacimDataSet9.xss">
+      <DependentUpon>IEczacimDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Images\Yonetim_Paneli_BackP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Images\Home_BackP.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
